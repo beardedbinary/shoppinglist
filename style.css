@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+#app {
+  width: 500px;
+  border: black 1px solid;
+  border-radius: 5px;
+}
+
+#top {
+  width: 498px;
+  text-align: center;
+  background-color: lightgray;
+  padding-bottom: 1rem;
+}
+#first {
+  font-size: 1.2rem;
+}
+
+.done {
+  text-decoration: line-through;
+  color: red;
+}
+ul {
+  width: 498px;
+}
+ul li {
+  padding: 0.25rem;
+  font-size: 1.2rem;
+}
+
+ul li button:hover {
+  color: red;
+}
+
+.delete {
+  float: right;
+}
+
+#userinput {
+  width: 250px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+#enter {
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+#enter:hover {
+  color: green;
+}
+input {
+  text-align: center;
+}
